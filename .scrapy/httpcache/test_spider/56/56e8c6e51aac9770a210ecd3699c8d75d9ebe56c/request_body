@@ -1,0 +1,10 @@
+{
+    "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en",
+        "Cookie": "tableau_public_negotiated_locale=en-us",
+        "User-Agent": "Boobot (+https://goo.gl/forms/0xzs325P2mP7A7VG2)"
+    },
+    "url": "https://public.tableau.com/ja-jp/search/all/COVID?page=150",
+    "wait": 3.0
+}

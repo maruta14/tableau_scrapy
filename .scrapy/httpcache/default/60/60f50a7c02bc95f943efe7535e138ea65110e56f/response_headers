@@ -1,0 +1,20 @@
+Content-Type: text/html; charset=utf-8
+Access-Control-Allow-Origin: http://public.tableau.com
+Content-Encoding: gzip
+Date: Sat, 23 May 2020 06:40:25 GMT
+Etag: W/"314-5a62cb0b1466c;677-5a62cb0b6e7d6"
+Last-Modified: Thu, 21 May 2020 18:29:16 GMT
+P3P: CP="NON"
+Referrer-Policy: no-referrer-when-downgrade
+Server: nginx/1.13.12
+Set-Cookie: tableau_public_negotiated_locale=en-us;Path=/;SameSite=None;Secure;
+Vary: accept-language,X-Forwarded-Proto,Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Tableau: Tableau Server
+X-Ua-Compatible: IE=Edge
+X-Xss-Protection: 1; mode=block
+X-Cache: Error from cloudfront
+Via: 1.1 691058120ef1de75ba30e779e423d486.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: NRT20-C4
+X-Amz-Cf-Id: 3eKeS2jO9ljIkwE0-Z2vJ7pLVfbpBshI4tZK3ltHNjNcMxGqPp6ATg==

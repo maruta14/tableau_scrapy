@@ -1,0 +1,8 @@
+Server: CloudFront
+Date: Sat, 23 May 2020 03:15:14 GMT
+Content-Type: text/html
+Location: https://public.tableau.com/robots.txt
+X-Cache: Redirect from cloudfront
+Via: 1.1 7fbaa913bab65181c43baa72d85e3d8d.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: NRT20-C4
+X-Amz-Cf-Id: _mlkQJH3YJUEDLaH0u53GUCySkkxOFQP4WfENUJZxJqqA_tmuL56cw==

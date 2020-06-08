@@ -1,0 +1,311 @@
+<!DOCTYPE html><!--[if IEMobile 7]><html class="no-js ie iem7" lang="en" dir="ltr"><![endif]--><!--[if lte IE 6]><html class="no-js ie lt-ie9 lt-ie8 lt-ie7" lang="en" dir="ltr"><![endif]--><!--[if (IE 7)&(!IEMobile)]><html class="no-js ie lt-ie9 lt-ie8" lang="en" dir="ltr"><![endif]--><!--[if IE 8]><html class="no-js ie lt-ie9" id="ng-app" ng-app="vizhub" ng-csp lang="en" dir="ltr"><![endif]--><!--[if IE 9]><html class="no-js ie ie9 lte-ie9" id="ng-app" ng-app="vizhub" ng-csp lang="en" dir="ltr"><![endif]--><!--[if (gte IE 9)|(gt IEMobile 7)]><html class="no-js ie" id="ng-app" ng-app="vizhub" ng-csp lang="en" dir="ltr" prefix="fb: http://ogp.me/ns/fb# og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book# profile: http://ogp.me/ns/profile# video: http://ogp.me/ns/video# product: http://ogp.me/ns/product#"><![endif]--><!--[if !IE]><!--><html xmlns:ng="http://angularjs.org" id="ng-app" ng-app="vizhub" ng-csp="" class="js js geolocation hashchange history no-pointerevents postmessage svg touchevents no-video backgroundsize boxshadow fontface cssgradients cssreflections textshadow csstransforms csstransitions no-localstorage" lang="en" dir="ltr" prefix="fb: http://ogp.me/ns/fb# og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book# profile: http://ogp.me/ns/profile# video: http://ogp.me/ns/video# product: http://ogp.me/ns/product#"><!--<![endif]--><head>
+  <!-- The following 2 <meta> tags are recommended at top for IE security and
+      mobile responsiveness. https://htmlhead.dev/#recommended-minimum -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://public.tableau.com/s/sites/default/files/css/css_SDQaEnDzwEy5Ror8O09RWgsMm0JHEaziCHiKWpRTk7Q.css" media="all">
+
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="https://public.tableau.com/s/sites/default/files/css/css_i7KAI2VGYsqqK4wqezq4CAFrye6rVBJKpglLxUuKfyg.css" media="all" />
+<![endif]-->
+
+  <title ng-bind="(metaTag.title ? metaTag.title : 'Tableau Public' )">Tableau Public</title>
+  <!---->
+  <script src="https://img.en25.com/i/elqCfg.min.js" type="text/javascript" async=""></script><script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="57015b9b-6492-4ecc-8b6f-269747e1cae0"></script>
+<script type="text/javascript">
+function OptanonWrapper() { }
+</script>
+<link rel="dns-prefetch" href="//ajax.googleapis.com">
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+<link rel="dns-prefetch" href="//www.google-analytics.com">
+<link rel="dns-prefetch" href="//publicstaticcdn.tableausoftware.com">
+<link rel="dns-prefetch" href="//publicstatic.tableausoftware.com">
+<!--[if IE 9]>
+<link rel="prefetch" href="//ajax.googleapis.com" />
+<link rel="prefetch" href="//www.googletagmanager.com" />
+<link rel="prefetch" href="//www.google-analytics.com" />
+<link rel="prefetch" href="//publicstaticcdn.tableausoftware.com" />
+<link rel="prefetch" href="//publicstatic.tableausoftware.com" />
+<![endif]-->
+<meta name="fragment" content="!">
+<script>
+        var loc = window.location.href;
+        var dataLayer = window.dataLayer = window.dataLayer || [];
+        dataLayer.push({
+            'Application': 'Tableau Public',
+            'Realm': 'authors'
+        });
+      </script><meta name="referrer" content="origin-when-cross-origin">
+<link rel="shortcut icon" href="https://public.tableau.com/s/favicon.ico" type="image/vnd.microsoft.icon">
+<script>dataLayer = [{"language":"en","drupal.userStatus":"anonymous"}];</script>
+<link rel="profile" href="http://www.w3.org/1999/xhtml/vocab">
+<meta name="HandheldFriendly" content="true">
+<meta name="MobileOptimized" content="width">
+<meta http-equiv="cleartype" content="on">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.1.0/es5-shim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+<style type="text/css"></style><style type="text/css">/**
+ * Draft v0.11.0
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+.DraftEditor-editorContainer,.DraftEditor-root,.public-DraftEditor-content{height:inherit;text-align:initial}.public-DraftEditor-content[contenteditable=true]{-webkit-user-modify:read-write-plaintext-only}.DraftEditor-root{position:relative}.DraftEditor-editorContainer{background-color:rgba(255,255,255,0);border-left:.1px solid transparent;position:relative;z-index:1}.public-DraftEditor-block{position:relative}.DraftEditor-alignLeft .public-DraftStyleDefault-block{text-align:left}.DraftEditor-alignLeft .public-DraftEditorPlaceholder-root{left:0;text-align:left}.DraftEditor-alignCenter .public-DraftStyleDefault-block{text-align:center}.DraftEditor-alignCenter .public-DraftEditorPlaceholder-root{margin:0 auto;text-align:center;width:100%}.DraftEditor-alignRight .public-DraftStyleDefault-block{text-align:right}.DraftEditor-alignRight .public-DraftEditorPlaceholder-root{right:0;text-align:right}.public-DraftEditorPlaceholder-root{color:#9197a3;position:absolute;z-index:1}.public-DraftEditorPlaceholder-hasFocus{color:#bdc1c9}.DraftEditorPlaceholder-hidden{display:none}.public-DraftStyleDefault-block{position:relative;white-space:pre-wrap}.public-DraftStyleDefault-ltr{direction:ltr;text-align:left}.public-DraftStyleDefault-rtl{direction:rtl;text-align:right}.public-DraftStyleDefault-listLTR{direction:ltr}.public-DraftStyleDefault-listRTL{direction:rtl}.public-DraftStyleDefault-ol,.public-DraftStyleDefault-ul{margin:16px 0;padding:0}.public-DraftStyleDefault-depth0.public-DraftStyleDefault-listLTR{margin-left:1.5em}.public-DraftStyleDefault-depth0.public-DraftStyleDefault-listRTL{margin-right:1.5em}.public-DraftStyleDefault-depth1.public-DraftStyleDefault-listLTR{margin-left:3em}.public-DraftStyleDefault-depth1.public-DraftStyleDefault-listRTL{margin-right:3em}.public-DraftStyleDefault-depth2.public-DraftStyleDefault-listLTR{margin-left:4.5em}.public-DraftStyleDefault-depth2.public-DraftStyleDefault-listRTL{margin-right:4.5em}.public-DraftStyleDefault-depth3.public-DraftStyleDefault-listLTR{margin-left:6em}.public-DraftStyleDefault-depth3.public-DraftStyleDefault-listRTL{margin-right:6em}.public-DraftStyleDefault-depth4.public-DraftStyleDefault-listLTR{margin-left:7.5em}.public-DraftStyleDefault-depth4.public-DraftStyleDefault-listRTL{margin-right:7.5em}.public-DraftStyleDefault-unorderedListItem{list-style-type:square;position:relative}.public-DraftStyleDefault-unorderedListItem.public-DraftStyleDefault-depth0{list-style-type:disc}.public-DraftStyleDefault-unorderedListItem.public-DraftStyleDefault-depth1{list-style-type:circle}.public-DraftStyleDefault-orderedListItem{list-style-type:none;position:relative}.public-DraftStyleDefault-orderedListItem.public-DraftStyleDefault-listLTR:before{left:-36px;position:absolute;text-align:right;width:30px}.public-DraftStyleDefault-orderedListItem.public-DraftStyleDefault-listRTL:before{position:absolute;right:-36px;text-align:left;width:30px}.public-DraftStyleDefault-orderedListItem:before{content:counter(ol0) ". ";counter-increment:ol0}.public-DraftStyleDefault-orderedListItem.public-DraftStyleDefault-depth1:before{content:counter(ol1,lower-alpha) ". ";counter-increment:ol1}.public-DraftStyleDefault-orderedListItem.public-DraftStyleDefault-depth2:before{content:counter(ol2,lower-roman) ". ";counter-increment:ol2}.public-DraftStyleDefault-orderedListItem.public-DraftStyleDefault-depth3:before{content:counter(ol3) ". ";counter-increment:ol3}.public-DraftStyleDefault-orderedListItem.public-DraftStyleDefault-depth4:before{content:counter(ol4,lower-alpha) ". ";counter-increment:ol4}.public-DraftStyleDefault-depth0.public-DraftStyleDefault-reset{counter-reset:ol0}.public-DraftStyleDefault-depth1.public-DraftStyleDefault-reset{counter-reset:ol1}.public-DraftStyleDefault-depth2.public-DraftStyleDefault-reset{counter-reset:ol2}.public-DraftStyleDefault-depth3.public-DraftStyleDefault-reset{counter-reset:ol3}.public-DraftStyleDefault-depth4.public-DraftStyleDefault-reset{counter-reset:ol4}</style><script src="https://cdn.cookielaw.org/scripttemplates/5.13.0/otBannerSdk.js" async="" type="text/javascript"></script></head>
+<body class="html not-front not-logged-in page-profile page-profile-edanur author-profile i18n-en section-profile">
+  <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+
+<!-- before top -->
+  <!-- Google Tag Manager -->
+<noscript>&lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-WP98PN" height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+<script>(function(w,d,s,l,i){
+d.addEventListener('loadGTMOntoPage',function(){
+w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);});
+})(window,document,'script','dataLayer','GTM-WP98PN');</script>
+<!-- End Google Tag Manager --><!-- before page -->
+  <div class="l-page has-no-sidebars">
+  <div class="sticky-wrapper" style="height: 50px;"><header class="l-header at-top stuck" role="banner">
+    <div class="l-inner">
+      <a data-test-id="headerNavbar-mobileHamburger" id="hamburger" href="#"><i class="icon-mobile-menu"></i></a>
+      <div class="l-branding">
+                  <a data-test-id="headerNavbar-home-link" href="/en-us/s/" rel="home" class="site-logo">
+            <img src="/s/sites/all/themes/revizit/logo.png" alt="Home">
+          </a>
+        
+        
+              </div>
+
+        <div class="l-region l-region--navigation">
+    <div class="menu-inner-div">
+      <nav id="block-menu-block-1" role="navigation" class="block block--menu-block block--menu-block-1">
+      
+  <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-217"><a href="https://public.tableau.com/en-us/s/gallery" class="gallery" data-test-id="headerNavbar-gallery-link">Gallery</a></li>
+<li class="leaf menu-mlid-502"><a href="/en-us/s/authors" class="authors" data-test-id="headerNavbar-authors-link">Authors</a></li>
+<li class="leaf menu-mlid-338"><a href="/en-us/s/blog" class="blog" data-test-id="headerNavbar-blog-link">Blog</a></li>
+<li class="leaf menu-mlid-385"><a href="/en-us/s/resources" class="resource" data-test-id="headerNavbar-resources-link">Resources</a></li>
+<li class="leaf menu-mlid-789 nav__activity"><a href="/en-us/s/activity" class="nav--activity" data-test-id="headerNavbar-activity-link">Activity</a></li>
+<li class="leaf menu-mlid-959"><a href="https://public.tableau.com/s/" class="link--sign-up signup-link link--account-signup" data-test-id="headerNavbar-signUp-link">Sign Up</a></li>
+<li class="last leaf menu-mlid-387"><a href="https://public.tableau.com/s" class="login-link" data-test-id="headerNavbar-signIn-link">Sign In</a></li>
+</ul></div>
+</nav>
+<div id="block-public-sitewide-ui-author-profile-dropdown" aria-haspopup="true" class="block block--public-sitewide-ui block--public-sitewide-ui-author-profile-dropdown l-login">
+        <div class="block__content">
+    <div class="l-avatar ng-hide" ng-show="loginService.loginRetreived">
+  <img data-test-id="headerNavbar-authorAvatar" class="author-avatar" src="">
+  <nav data-test-id="headerNavbar-authorDropdownMenu" class="author-menu">
+    <a data-test-id="headerNavbar-myProfile-link" class="workspace-link" href="#">My Profile</a>
+    <a data-test-id="headerNavbar-settings-link" class="profile-settings" href="#">Settings</a>
+    <a data-test-id="headerNavbar-downloadApp-link" class="product-download" href="/en-us/s/download">Download the App</a>
+    <a data-test-id="headerNavbar-signOut-link" class="login-sign-out" href="#">Sign Out</a>
+    <div data-test-id="headerNavbar-spaceUsed" class="app-usage">
+      <span class="used">xx</span>MB of <span class="limit">10</span>GB used
+      <span class="indicator"><b class="progress"></b></span>
+    </div>
+  </nav>
+</div>
+  </div>
+</div>
+    </div>
+  </div>
+        <div class="l-region l-region--search">
+    <div id="block-public-sitewide-ui-search-button" class="block block--public-sitewide-ui block--public-sitewide-ui-search-button l-search">
+        <div class="block__content">
+    <div class="search-button-container">
+  <button class="search-button" data-test-id="headerNavbar-search-link">
+    <i class="icon-search"></i>
+  </button>
+</div>
+  </div>
+</div>
+<div id="block-public-sitewide-ui-search-overlay" class="block block--public-sitewide-ui block--public-sitewide-ui-search-overlay">
+        <div class="block__content">
+    <div id="modal-search-overlay" class="l-search-overlay">
+  <form id="search-overlay-form" class="search-overlay-form ng-pristine ng-valid">
+    <div class="search-overlay-input-field">
+      <button class="search-button" data-test-id="searchOverlay-search-link">
+        <i class="icon-search"></i>
+      </button>
+      <input class="form-text form-search" title="" placeholder="Search Tableau Public" type="search" id="search-overlay-input" name="search-overlay-input" value="" size="15" maxlength="128">
+    </div>
+  </form>
+</div>  </div>
+</div>
+  </div>
+    </div>
+  </header></div>
+
+  <section class="l-admin">
+    <div class="l-inner">
+            </div>
+  </section>
+
+  <div class="canvas-content">
+    <section class="l-main">
+      <div class="l-content l-inner" role="main">
+                        <a id="main-content"></a>
+                                                <div id="block-block-7" class="block block--block block--block-7">
+        <div class="block__content">
+    <style>
+.node-unpublished {
+    background-color: #fff;
+} 
+</style>  </div>
+</div>
+<!---->              </div>
+
+          </section>
+
+    <footer class="l-footer" role="contentinfo">
+      <div class="l-inner">
+          <div class="l-region l-region--footer">
+    <div id="block-nodeblock-7" class="block block--nodeblock block--nodeblock-7">
+        <div class="block__content">
+    <div id="node-7" class="node node--block internal-node node--full node--block--full clearfix" role="article">
+
+        
+  
+  <div class="content">
+    
+  <div class="field--body">
+    <div class="about">
+  <a data-test-id="footerNavbar-tableauHome-link" href="https://www.tableau.com">
+    <span class="defer-image-load" data-defer-src="//cdns.tblsft.com/sites/default/files/media/tableau-logo-transparent-fff.png" data-defer-alt="Tableau Software"><img src="//cdns.tblsft.com/sites/default/files/media/tableau-logo-transparent-fff.png"></span>
+  </a>
+  <p>© 2020 Tableau Software, LLC, a Salesforce Company.<br>All Rights Reserved</p>
+</div>
+
+<div class="navigation">
+  <nav class="footer-navigation">
+   <h3 class="footer-navigation__heading">Products</h3>
+    <a data-test-id="footerNavbar-productTableauDesktop-link" target="_blank" href="https://www.tableau.com/products/desktop">Tableau Desktop</a>
+    <a data-test-id="footerNavbar-productTableauServer-link" target="_blank" href="https://www.tableau.com/products/server">Tableau Server</a>
+    <a data-test-id="footerNavbar-productTableauOnline-link" target="_blank" href="https://www.tableau.com/products/online">Tableau Online</a>
+    <a data-test-id="footerNavbar-productTableauPrep-link" target="_blank" href="https://www.tableau.com/products/prep">Tableau Prep</a>
+    <a data-test-id="footerNavbar-productTableauPublic-link" href="/en-us/s/download">Tableau Public <span class="badge orange"><em>Free</em></span></a>
+  </nav>
+  <nav class="footer-navigation">
+   <h3 class="footer-navigation__heading">Legal</h3>
+    <a data-test-id="footerNavbar-legalPrivacyPolicy-link" target="_blank" href="https://www.tableau.com/privacy">Privacy Policy</a>
+    <a data-test-id="footerNavbar-legalDataPolicy-link" href="/en-us/s/data-policy">Data Policy</a>
+    <a data-test-id="footerNavbar-legalTermsOfService-link" target="_blank" href="http://www.tableau.com/tos">Terms of Service</a>
+    <a data-test-id="footerNavbar-legalPatents-link" target="_blank" href="http://www.tableau.com/ip">Patents &amp; IP</a>
+    <a data-test-id="footerNavbar-legalCookies-link" target="_blank" href="https://www.tableau.com/do-not-sell-my-personal-information">Do Not Sell My Personal Information</a>
+  </nav>
+  <nav class="footer-navigation">
+    <h3 class="footer-navigation__heading">About</h3>
+    <a data-test-id="footerNavbar-aboutCurrenStatus-link" target="_blank" href="https://trust.tableau.com">Current Status</a>
+    <a data-test-id="footerNavbar-aboutFAQ-link" href="/s/faq">FAQ</a>
+    <a data-test-id="footerNavbar-aboutCareers-link" target="_blank" href="http://careers.tableau.com">Careers</a>
+    <a data-test-id="footerNavbar-aboutContact-link" href="/en-us/s/contact-us">Contact Us</a>
+  </nav>
+</div>
+
+<div class="social">
+    <a data-test-id="footerNavbar-socialTwitter-link" href="https://www.twitter.com/tableaupublic" class="twitter" target="_blank"><i class="icon-social-twitter"></i></a>
+    <a data-test-id="footerNavbar-socialFacebook-link" href="https://www.facebook.com/TableauPublic" class="facebook" target="_blank"><i class="icon-social-facebook"></i></a>
+    <a data-test-id="footerNavbar-socialLinkedIn-link" href="https://www.linkedin.com/company/tableau-software" class="linkedin" target="_blank"><i class="icon-social-linkedin-negative"></i></a>
+</div>
+
+<style>
+#workbookEditForm .tile.embed { display:none; }
+#workbookEditForm #viz-embed-code { display:none; }
+.gss-result .gss-info { display:none; }
+
+.l-overview .page-title {
+  display: inline-block;
+}
+.l-overview .page-title__desc {
+  display: inline-block;
+  margin-bottom: 0;
+}
+.l-overview .page-title__desc + .sub-title {
+  display: block;
+}
+</style>  </div>
+  </div>
+
+  
+  
+</div>
+  </div>
+</div>
+<div id="block-locale-language" role="complementary" class="block block--locale block--locale-language">
+        <div class="block__content">
+    <div data-test-id="footerNavbar-languageSelector" class="global-footer__language" aria-haspopup="true"><a id="lang-dropdown" class="anchor-link"></a><span class="selected">English</span><ul class="language-switcher-locale-url global-footer__language-options"><li class="en first active"><a href="https://public.tableau.com/profile/eda.nur" class="language-link active" xml:lang="en" data-language-prefix="en-us">English</a></li>
+<li class="de"><a href="https://public.tableau.com/profile/eda.nur" class="language-link" xml:lang="de" data-language-prefix="de-de">Deutsch</a></li>
+<li class="en-gb"><a href="https://public.tableau.com/profile/eda.nur" class="language-link" xml:lang="en-gb" data-language-prefix="en-gb">English (UK)</a></li>
+<li class="es"><a href="https://public.tableau.com/profile/eda.nur" class="language-link" xml:lang="es" data-language-prefix="es-es">Español</a></li>
+<li class="fr"><a href="https://public.tableau.com/profile/eda.nur" class="language-link" xml:lang="fr" data-language-prefix="fr-fr">Français</a></li>
+<li class="pt-br"><a href="https://public.tableau.com/profile/eda.nur" class="language-link" xml:lang="pt-br" data-language-prefix="pt-br">Português</a></li>
+<li class="ja"><a href="https://public.tableau.com/profile/eda.nur" class="language-link" xml:lang="ja" data-language-prefix="ja-jp">日本語</a></li>
+<li class="ko"><a href="https://public.tableau.com/profile/eda.nur" class="language-link" xml:lang="ko" data-language-prefix="ko-kr">한국어</a></li>
+<li class="zh-hans"><a href="https://public.tableau.com/profile/eda.nur" class="language-link" xml:lang="zh-hans" data-language-prefix="zh-cn">简体中文</a></li>
+<li class="zh-hant"><a href="https://public.tableau.com/profile/eda.nur" class="language-link" xml:lang="zh-hant" data-language-prefix="zh-tw">繁體中文</a></li>
+<li class="it last"><a href="https://public.tableau.com/profile/eda.nur" class="language-link" xml:lang="it" data-language-prefix="it-it">Italiano</a></li>
+</ul></div>  </div>
+</div>
+<div id="block-public-sitewide-ui-modal-password-recover-confirm" class="block block--public-sitewide-ui block--public-sitewide-ui-modal-password-recover-confirm">
+        <div class="block__content">
+    <div class="modal-tableau-dialogs is-hidden">
+  <section class="password-recover-set" id="modal-password-recover-set" data-test-id="recoverPasswordConfirmModal" tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
+    <h2>Password Reset</h2>
+    <div class="modal-inner">
+      <form id="form--password-recover-set" method="post" novalidate="novalidate" class="ng-pristine ng-valid">
+        <div class="form-section">
+          <div class="form-field">
+            <label class="form-field__label" for="recover-password">Password</label>
+            <input required="" type="password" name="recover-password" id="recover-password" class="input-text" placeholder="Password" data-test-id="recoverPasswordConfirmModal-password-input">
+          </div>
+        </div>
+
+        <div class="form-section form-recover-password-confirm">
+          <div class="form-field">
+            <label class="form-field__label" for="recover-password-confirm">Confirm</label>
+            <input type="password" name="recover-password-confirm" id="recover-password-confirm" class="input-text" placeholder="Confirm" data-test-id="recoverPasswordConfirmModal-confirmPassword-input">
+          </div>
+        </div>
+
+        <!-- This is to hold the reset password code to submit/validate reset password flow -->
+        <div class="form-section form-recover-password-recover-code">
+          <label for="recover-code">Recover code</label>
+          <div class="form-field">
+            <input type="text" name="recover-code" id="recover-code" data-test-id="recoverPasswordConfirmModal-recoverCode-input">
+          </div>
+        </div>
+
+        <div class="form-actions">
+          <input id="recover-confirm-submit" type="submit" value="Reset Password" class="confirm tile" data-test-id="recoverPasswordConfirmModal-submit-button">
+        </div>
+      </form>
+    </div>
+  </section>
+</div>
+  </div>
+</div>
+  </div>
+      </div>
+    </footer>
+  </div>
+</div>
+<div id="mobile-menu-mask" class="mobile-menu-mask"></div>
+<!-- before page_bottom -->
+  <!-- after page_bottom -->
+  <script>dataLayer.push({"event":"jqueryLoaded"});</script>
+<script>window.FrontendInfo = {"featureFlags":{"favorite_in_feed":true,"js_api":false,"local_gallery":false,"recaptcha":true,"web_copy":true},"recaptcha":{"sitekey":"6LdP2Z8UAAAAAJZRwke2dF1GhPhjpbQOrIF5Ba4X"}};</script>
+<script src="https://public.tableau.com/s/sites/all/libraries/vizhub/commons.26a72cb8c6587ca021ca.js?v=qap9g5"></script>
+<script src="https://public.tableau.com/s/sites/all/libraries/vizhub/angularCommons.c7c3c98030c4c388d8fb.js?v=qap9g5"></script>
+<script src="https://public.tableau.com/s/sites/all/libraries/vizhub/profile.6cbde349a8356cd72c01.js?v=qap9g5"></script><div id="login-modal"><div></div></div><div id="reset-password-modal-react"></div><div id="user-settings-modal-react"></div><div id="signup-modal-react"></div><div id="verification-prompt-modal-react"></div><div id="session-timeout-modal"></div><div id="author-cards-modal"></div><div id="publish-toast"></div><div class="ReactModalPortal"></div><div class="ReactModalPortal"></div>
+<script>Drupal.settings.getLanguagePreferencePath = "/s/sites/all/modules/lang_dropdown_remind/lang_dropdown_remind.callback.php";</script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/en-us\/s\/","pathPrefix":"en-us\/","colorbox":{"transition":"none","speed":"250","opacity":"1","slideshow":false,"slideshowAuto":true,"slideshowSpeed":"2500","slideshowStart":"start slideshow","slideshowStop":"stop slideshow","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"","overlayClose":true,"maxWidth":"98%","maxHeight":"98%","initialWidth":"750","initialHeight":"500","fixed":true,"scrolling":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"deferImage":{"deferClass":"defer-image-load","deferTiming":"load"},"tabia":{"publicversion":"2020.2","qthistory":"Drupal-quicktabs-active-tab-id-","facebookAppId":""},"tableauBrightcove":{"accountId":"3798483592001","defaultPlayerId":"default"},"lang_dropdown_remind":{"markup":"\u003Cdiv class=\u0022inner\u0022\u003E!message !close_button\u003C\/div\u003E","messages":{"default":"This page is available in your preferred language. Navigate there using \u003Ca id=\u0022trigger-langdropdown\u0022 href=\u0022#\u0022\u003Ethe language drop down menu\u003C\/a\u003E."},"close":{"default":"\u0026#10006;"},"repeat":0,"prependto":"#page"},"eloqua_api":{"trackingRemoteUrl":"https:\/\/img.en25.com\/i\/elqCfg.min.js","siteId":"840","firstPartyCookieHost":"clicks.tableau.com"},"tableau6Sense":{"customer_token":"7de4a2f5ee5804353e4d7b724b9f2ef5","epsilon_key":"80606f4ef9ec210a1976cc499eb5573ff4ff8e3b","event_endpoint":"b.6sc.co","time_out":5000,"onetrust_group":"C0004"}});</script>
+
+
+<div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button type="button" id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div></body></html>
